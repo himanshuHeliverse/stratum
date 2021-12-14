@@ -1,0 +1,49 @@
+{
+  "name": "stratum-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "test": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.7",
+    "@stripe/react-stripe-js": "^1.4.1",
+    "@stripe/stripe-js": "^1.17.1",
+    "@svgr/webpack": "^5.5.0",
+    "animate-css-styled-components": "^1.0.2",
+    "axios": "^0.21.1",
+    "framer-motion": "^4.1.17",
+    "graphql": "^15.5.1",
+    "husky": "^7.0.1",
+    "isomorphic-fetch": "^3.0.0",
+    "js-cookie": "^3.0.0",
+    "moment": "^2.29.1",
+    "next": "11.0.1",
+    "next-auth": "^3.29.0",
+    "nprogress": "^0.2.0",
+    "react": "17.0.2",
+    "react-crossfade-image": "^1.2.0",
+    "react-custom-scrollbars-2": "^4.4.0",
+    "react-dom": "17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-loader-spinner": "^4.0.0",
+    "react-modal": "^3.14.3",
+    "react-multi-carousel": "^2.6.3",
+    "react-player": "^2.9.0",
+    "react-sticky": "^6.0.3",
+    "react-swipeable": "^6.1.2",
+    "styled-components": "^5.3.0",
+    "validator": "^13.6.0",
+    "video.js": "^7.14.3"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.0.1"
+  }
+}

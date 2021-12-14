@@ -1,0 +1,31 @@
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+    background-image: url('../../static/images/play-icon.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    content: "" !important;
+ }
+
+ .video-js  .vjs-big-play-button{
+    content: "" !important;
+    top:45% !important;
+    left:47% !important;    
+
+    width:200px !important;
+    height:200px !important;
+    background-color: transparent !important;
+    border: none !important;
+  
+ }
+
+ @media screen and (max-width: 780px) {
+    .video-js  .vjs-big-play-button{
+        width:60px !important;
+        height:60px !important;
+        top:50% !important;
+        left:54% !important;    
+         }
+
+    .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+        background-size: 60px;     
+    }
+  }

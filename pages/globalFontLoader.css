@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Uniform Pro";
+  src: url("/fonts/UniformPro/UniformPro-Reg.woff2") format("woff2");
+  font-display: block;
+}
+@font-face {
+  font-family: "Uniform Pro Medium";
+  src: url("/fonts/UniformPro/UniformPro-Med.woff2") format("woff2");
+  font-display: block;
+}
+@font-face {
+  font-family: "Uniform Pro Bold";
+  src: url("/fonts/UniformPro/UniformPro-Bld.woff2") format("woff2");
+  font-display: block;
+}
+@font-face {
+  font-family: "Object Sans";
+  src: url("/fonts/ObjectSans-Regular.otf");
+  font-display: block;
+}
+@font-face {
+  font-family: "Sharp Sans No1 SemiBold";
+  src: url("/fonts/SansSharp/SharpSansNo1-Semibold.ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: "Sharp Sans No1 Bold";
+  src: url("/fonts/SansSharp/SharpSansNo1-Bold.ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: "Sharp Sans No1 Medium";
+  src: url("/fonts/SansSharp/SharpSansNo1-Medium.ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: "Sharp Sans No1 Light";
+  src: url("/fonts/SansSharp/SharpSansNo1-Light.ttf");
+  font-display: block;
+}
+@font-face {
+  font-family: "Uniform-fallback";
+  size-adjust: 97.38%;
+  ascent-override: 99%;
+  src: local("Arial");
+}
+
+/* @font-face {
+    font-family: "Inter";
+    src: url("/fonts/Inter-VariableFont.woff2") format("woff2");
+    font-display: block;
+  } */
+@font-face {
+  font-family: "Inter";
+  font-weight: 100 900;
+  font-display: block;
+  font-style: oblique 0deg 10deg;
+  src: url("/fonts/Inter/Inter Web/Inter.var.woff2?v=3.16") format("woff2");
+}
